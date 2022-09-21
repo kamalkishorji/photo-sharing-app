@@ -5,7 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "test": "jest --detectOpenHandles",
+    "test-watch": "jest --watch",
+    "watch": "nodemon server.js",
+    "start": "node index.js",
+    "cluster": "pm2 start src/server.js -i max"
   },
   "keywords": [],
   "author": "",
