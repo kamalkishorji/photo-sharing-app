@@ -1,0 +1,91 @@
+html {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background: #e7e5e4;
+    color: #1c1e21;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: #fff;
+    height: 50px;
+   
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.s-button {
+    width: 100%;
+}
+
+.post-img {
+    width: 100%;
+    height: 250Px;
+}
+.post-img :hover{
+    opacity: 1;
+}
+.post-img-container{
+    position: relative;
+}
+.edit-icon-container{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* .card-container {
+    padding: 1rem;
+    height: 4rem;
+} */
+
+/* .post-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 600px) {
+    .post-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+    }
+}
+
+@media (min-width: 900px) {
+    .post-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
+
+.small-btn {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+
+}
+.form-container{
+   max-width: 500px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 0.8rem;
+}
+.login-card {
+    background: #fff;
+
+    border: 2px solid #fff;
+}
+.edit-icon{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 25px;
+    z-index: 50;
+    cursor: pointer;
+}
